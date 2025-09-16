@@ -1,1 +1,82 @@
+/* Reset & body */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #000000, #ffffff);
+  color: #fff;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(to right, #000, #fff);
+}
+
+header h1 {
+  font-size: 2.2rem;
+  color: #ffeb3b;
+}
+
+header h2 {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* Sections */
+.content-section {
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Flowchart */
+.flowchart-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flow-node {
+  background: linear-gradient(135deg, #000, #ffeb3b);
+  color: #000;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.flow-node ul {
+  text-align: left;
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+}
+
+.flow-row-sub {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.5rem;
+}
+
+.flow-node-sub {
+  background: #fff;
+  color: #000;
+  padding: 0.3rem 0.5rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+.arrow {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+  color: #ffeb3b;
+}
+
+.coming-soon-inline {
+  color: #ff0000;
+  font-weight: bold;
+}
 
